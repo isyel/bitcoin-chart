@@ -1,0 +1,28 @@
+.app,
+.center {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	flex: 1;
+	right: 0;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	flex-direction: column;
+}
+
+.chart {
+	width: 600px;
+	height: 400px;
+	background-color: #27273f;
+	border-radius: 8px;
+	color: white;
+}
+
+.disclaimer {
+	color: white;
+	opacity: 0.5;
+	font-size: 11px;
+}

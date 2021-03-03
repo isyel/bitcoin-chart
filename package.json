@@ -1,0 +1,33 @@
+{
+	"name": "bitcoin-chart",
+	"version": "1.0.0",
+	"description": "A bitcoin chart for the last 30 days",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@vx/axis": "0.0.199",
+		"@vx/event": "0.0.199",
+		"@vx/gradient": "0.0.199",
+		"@vx/grid": "0.0.199",
+		"@vx/group": "0.0.199",
+		"@vx/mock-data": "0.0.199",
+		"@vx/pattern": "0.0.199",
+		"@vx/responsive": "0.0.199",
+		"@vx/scale": "0.0.199",
+		"@vx/shape": "0.0.199",
+		"@vx/tooltip": "0.0.199",
+		"d3-array": "^2.11.0",
+		"d3-format": "^2.0.0",
+		"d3-time-format": "^3.0.0",
+		"isomorphic-fetch": "^3.0.0",
+		"next": "^10.0.7",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
+}

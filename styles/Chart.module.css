@@ -1,0 +1,35 @@
+.title {
+	display: flex;
+	flex-direction: column;
+}
+
+.titlebar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+
+.currentprice {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.increased {
+	color: #00f1a1;
+}
+
+.decreased {
+	color: crimson;
+}
+
+.axisbottom {
+	color: white;
+}
+
+.tooltip {
+	background: #204051;
+	border: "1px solid white";
+	color: "white";
+}
